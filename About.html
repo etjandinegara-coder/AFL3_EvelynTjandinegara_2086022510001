@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio-Web Programming</title>        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="0">
+    <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">UC People</h5>
+            <button type="button" class="btn-close text-reset btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link active" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Project.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3" id="main-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">UC People</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="Index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Skills.html">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Project.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                </li>  
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="d-flex align-items-center min-vh-100 text-center">
+        <div class="container">
+
+        <section class="header text-center">
+            <h1 class="display-3 fw-bold animate-fade-in-up">About Me</h1>
+            <p>Mari berkenalan lebih dekat</p>
+        </section>
+
+                <div class="card profile-card shadow-lg">
+                <div class="row align-items-center">
+
+                <div class="col-md-4 text-center">
+                    <img src="images/foto2.jpeg" class="profile-img">
+                </div>
+
+                <div class="col-md-8">
+                    <h3>Evelyn Tjandinegara</h3>
+                    <h5 class="text-color">Artificial Intelligence</h5>
+                    <p>Hai, senang berkenalan. Perkenalkan aku evelyn. <br>Aku adalah seorang mahasiswa jurusan informatika dengan spesialisasi AI.</br></p>
+                </div>
+
+                </div>
+            </div>
+
+
+            <div class="card experience-card shadow-lg mt-4">
+                <h4 class="text-start mb-4">Experience</h4>
+
+                <div class="exp-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0">
+                            <a data-bs-toggle="collapse" href="#exp1" role="button">
+                                Food and Nutrition Division O-WEEK
+                            </a>
+                        </h6>
+                    </div>
+
+                    <div class="collapse mt-2" id="exp1">
+                        <div class="card card-body">
+                            Berlangsung sejak 7 Dec 2025 - Sekarang
+                            <br>Bertugas sebagai divisi yang menyediakan konsumsi untuk panitia dan peserta acara</br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0">
+                            <a data-bs-toggle="collapse" href="#exp2" role="button">
+                                Strategic Partnership Division Rekfest 2.0
+                            </a>
+                        </h6>
+                    </div>
+
+                    <div class="collapse mt-2" id="exp2">
+                        <div class="card card-body">
+                            Berlangsung sejak 8 Oct 2025 - Sekarang
+                            <br>Bertugas sebagai divisi yang mencari sponsorship untuk pencarian dana acara Rekfest 2.0</br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0">
+                            <a data-bs-toggle="collapse" href="#exp3" role="button">
+                                Mentor Division Go Big or Go Home
+                            </a>
+                        </h6>
+                    </div>
+
+                    <div class="collapse mt-2" id="exp3">
+                        <div class="card card-body">
+                            Berlangsung sejak 20 Dec 2025 - Sekarang
+                            <br>Bertugas sebagai divisi yang menjadi mentor yang akan mengarahkan peserta lomba</br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0">
+                            <a data-bs-toggle="collapse" href="#exp4" role="button">
+                                Master of Ceremony (MC) Doa Kami, Untuk Sumatera
+                            </a>
+                        </h6>
+                    </div>
+
+                    <div class="collapse mt-2" id="exp4">
+                        <div class="card card-body">
+                            Berlangsung sejak 19 Dec 2025 
+                            <br>Bertugas sebagai MC pada acara Doa Kami, Untuk Sumatera</br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0">
+                            <a data-bs-toggle="collapse" href="#exp5" role="button">
+                                Event Division (Doa Kami, Untuk Sumatera)
+                            </a>
+                        </h6>
+                    </div>
+
+                    <div class="collapse mt-2" id="exp5">
+                        <div class="card card-body">
+                            Berlangsung sejak 16 Dec 2025 - 19 Dec 2025 
+                            <br>Bertugas sebagai divisi yang mengatur sketsa, rundown dan rangkaian acara</br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0">
+                            <a data-bs-toggle="collapse" href="#exp6" role="button">
+                                Marketing & Sponsorship Coordinator 13th National Programming and Logic Competition
+                            </a>
+                        </h6>
+                    </div>
+
+                    <div class="collapse mt-2" id="exp6">
+                        <div class="card card-body">
+                            Berlangsung sejak 11 Nov 2025 - 7 Mar 2026 
+                            <br>Bertugas sebagai divisi yang mencari dana dan marketing untuk memasarkan kegiatan</br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0">
+                            <a data-bs-toggle="collapse" href="#exp7" role="button">
+                                Security Division (Election Day Event) UC Makassar
+                            </a>
+                        </h6>
+                    </div>
+
+                    <div class="collapse mt-2" id="exp7">
+                        <div class="card card-body">
+                            Berlangsung sejak 3 Nov 2025 - 6 Nov 2025 
+                            <br>Bertugas sebagai divisi yang menjaga keamanan selama acara berlanggsung</br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0">
+                            <a data-bs-toggle="collapse" href="#exp8" role="button">
+                                Consumption Division (Mantai Halloween Event) UC Makassar
+                            </a>
+                        </h6>
+                    </div>
+
+                    <div class="collapse mt-2" id="exp8">
+                        <div class="card card-body">
+                            Berlangsung sejak 13 Sept 2025 - 1 Nov 2025 
+                            <br>Bertugas sebagai divisi yang membuat konsumsi untuk dijual saat acara berlanggsung</br>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="exp-item">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h6 class="mb-0">
+                            <a data-bs-toggle="collapse" href="#exp9" role="button">
+                                Team Social Media Universitas Ciputra Makassar
+                            </a>
+                        </h6>
+                    </div>
+
+                    <div class="collapse mt-2" id="exp9">
+                        <div class="card card-body">
+                            Berlangsung sejak 17 Oct 2025 - 28 Jan 2025 
+                            <br>Bertugas sebagai live host tiktok UC Makassar dengan tugas mempromosikan UC Makassar</br>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            </div>   
+        </div>
+    </header>
+
+    <footer class="footer mt-5">
+    <div class="container">
+        <div class="row justify-content-end text-end">
+
+        <div class="col-md-4 mb-3">
+            <h5 class="material-symbols-outlined">code_xml</h5>
+            <p>Membuat aplikasi web yang indah dan functional dengan teknologi terbaru.</p>
+        
+            <h5>Connect With Me</h5>
+            <div class="social-icons">
+            <a href="https://www.instagram.com/evetjee._?igsh=cmV0cWJveGdocWJt&utm_source=qr"><i class="material-symbols-outlined">account_circle</i></a>
+            <a href="https://www.linkedin.com/in/evelyn-tjandinegara-10a78a392?utm_source=share_via&utm_content=profile&utm_medium=member_ios"><i class="material-symbols-outlined">forum</i></a>
+            <a href="https://github.com/etjandinegara-coder"><i class="material-symbols-outlined">link</i></a>
+            </div>
+        </div>
+        </div>
+
+        <p class="text-center mb-0">
+        © 2026 Evelyn Tjandinegara | copyright
+        </p>
+    </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

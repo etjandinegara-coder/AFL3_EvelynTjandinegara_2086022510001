@@ -1,0 +1,279 @@
+@import "bootstrap/scss/bootstrap";
+
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: url('../images/foto1.jpg') center/cover no-repeat;
+    scroll-behavior: smooth;
+    height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: black;
+}
+
+.navbar {
+    background-color: rgb(252, 252, 252);
+    height: 60px;
+}
+
+.header {
+  padding: 120px 20px 20px;
+  color: #333;
+}
+
+.text-color {
+  color: #66ac54;
+}
+
+.bg-green {
+  color: #66ac54;
+}
+
+/* profile di page about*/
+.profile-card {
+  border-radius: 20px;
+  padding: 30px;
+  background: white;
+  transition: 0.3s;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.profile-img {
+  width: 200px;
+  border-radius: 50%;
+  background: #66ac5428;
+  padding: 20px;
+}
+
+
+/* contact position di page contact*/
+.contact-item {
+  display: grid;
+  grid-template-columns: 50px 1fr; /* fix posisi */
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.btn-success {
+    background-color: #66ac54;
+    border-color: #66ac54;
+}
+
+
+/* experience di page about */
+.experience-card {
+  border-radius: 20px;
+  padding: 30px;
+  background: white;
+}
+
+.exp-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 4px solid #66ac54;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.exp-item a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.exp-item:hover {
+  background: #66ac5428;
+  transform: scale(1.02);
+}
+
+
+/* hero background di page index */
+.hero-arty {
+    position: relative;
+    background: url('../images/foto1.jpg') center/cover no-repeat;
+    color: white;
+}
+
+/* overlay agar lebih terbaca */
+.hero-arty .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+/* teks kiri */
+.small-text {
+    font-size: 18px;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.big-text {
+    font-size: 100px;
+    color: white;
+    font-weight: 900;
+    line-height: 0.9;
+}
+
+/* teks kanan */
+
+.desc-text {
+    max-width: 400px;
+    margin-left: auto;
+    font-size: 16px;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+    .big-text {
+        font-size: 60px;
+    }
+
+    .year-text {
+    font-size: 120px;
+    font-weight: 800;
+    text-align: right;
+}
+
+    .desc-text {
+        margin: auto;
+    }
+}
+
+
+/* hero di page skills */
+.pf-skill-hero {
+  padding: 120px 0 60px;
+}
+
+/* section di page skills */
+.pf-skills-page {
+  padding: 80px 0;
+}
+
+/* card style di page skills */
+.pf-skill-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.pf-skill-box:hover {
+  transform: translateY(-5px);
+}
+
+/* progress */
+.progress {
+  height: 20px;
+  margin-top: 10px;
+}
+
+.progress-bar {
+  font-size: 12px;
+  background-color: #66ac54;
+}
+
+
+/* image di page project */
+.project-card img {
+  height: 300px;
+  object-fit: cover;
+}
+
+
+/* hero di page gallery */
+.gallery-hero {
+  padding: 120px 0 60px;
+}
+
+/* section di page gallery */
+.gallery-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+/* image card di page gallery */
+.gallery-item {
+  overflow: hidden;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.gallery-item img {
+  transition: 0.4s;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+/* hover effect di page gallery */
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+
+/* footer */
+.footer {
+  background: #f8f9fa;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  color: #555;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s;
+}
+
+.footer a:hover {
+  color: #66ac54;
+}
+
+
+/* social icon */
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 15px;
+}
+
+.social-icons a {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #333;
+  transition: 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons a:hover {
+  color: #66ac54;
+  transform: scale(1.2);
+}
+
